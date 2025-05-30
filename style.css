@@ -71,7 +71,7 @@ a:hover{
 #menu-list {
          
   display: flex; /* esconde o menu */
-  top: 128px; /* logo abaixo do botão */
+  top: 120px; /* logo abaixo do botão */
   
 }
 
@@ -354,4 +354,5 @@ a:hover{
     align-items: center;
     height: 50px;
     font-weight: bold;
+    border-top: 5px double black;
 }

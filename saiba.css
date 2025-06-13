@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     font-family:"Inter", sans-serif;
+  
 }
 
 #text{
@@ -129,7 +130,7 @@ h2{
 #conteinerVideo{
     display: flex;
     align-items: center;
-    height: 600;
+    height: 700px;
     width: 80vw;
     margin: auto;
     margin-top: 10px;
@@ -141,10 +142,11 @@ h2{
 #conteinerVideo h2{
     background-color: white;
     color: #422e1b;
-    padding: 20px;
+    padding: 15px;
     margin-left: 40px;
     margin-bottom: 125px;
     box-shadow: 0 -8px 20px rgba(255, 255, 255, 0.3);
+    font-size: 2rem;
 
 }
 
@@ -152,12 +154,13 @@ h2{
     display: flex;
     justify-content: center;
     width: 32vw;
-    height:500px;
+    height:800px;
     margin: auto;
     margin-top: 20px;
     position: relative; 
     overflow: hidden; 
     margin-left: 70px;
+    border: 1px solid;
 }
 
 #video video{
